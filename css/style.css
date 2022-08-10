@@ -6,11 +6,25 @@
 body{
     background-image: url(../img/math.jpeg);
 }
-
+header{
+    background-color:#f4f3ee;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+header .container{
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left:auto;
+    padding-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .Calculator{
     background-color: rgb(197, 191, 191,.6);
     border-radius: 30px;
-    padding: 100px;
+    padding: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +47,7 @@ body{
 }
 .Calculator .btn .row input{
     width: 80px;
-    height: 30px;
+    height: 40px;
     border: 0;
     padding: 3px;
     cursor: pointer;
@@ -54,21 +68,38 @@ body{
     background-color:#ff9f1c
     ;
 }
+footer
+{
+    background-color:#333;
+    text-align: center;
+    padding:12px 0;
+    color:#f4f3ee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 /* media query */
 @media (max-width:1200px){
+    header .container h2{
+        font-size: 20px;
+    }
     .Calculator{
-        padding: 50px;
+        padding: 40px;
+        height:70%;
     }
     .Calculator .field input{
-        width:260px;
+        width:280px;
+        height:45px;
         padding:10px;
     }
     .Calculator .btn .row{
         padding: 2px;
+        height:100%;
     }
     .Calculator .btn .row input{
-        width: 60px;
+        width: 65px;
         padding: 2px;
+        height:60px;
     }
-
 }
