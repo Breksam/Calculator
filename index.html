@@ -8,6 +8,12 @@
     <title>Calculator</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="" width="50px" height="50px">
+            <h2>Let's Try Our Smart Calculator</h2>
+        </div>
+    </header>
     <div class="Calculator">
            <div class="field"> <input type="text" name="" id="field"></div>
         <div class="btn">
@@ -15,7 +21,7 @@
                 <input type = "button" class = "num" value = "1" onclick="field.value+=1">
                 <input type = "button" class = "num" value = "2" onclick="field.value+=2">
                 <input type = "button" class = "num" value = "3" onclick="field.value+=3">
-                <input type = "button" class = "delete" value = "X" onclick="deleteNum()">
+                <input type = "button" class = "delete" value = "Del" onclick="deleteNum()">
             </div>
             <div class="row">
                 <input type = "button" class = "num" value = "4" onclick="field.value+=4">
@@ -33,19 +39,22 @@
             <div class="row">
                 <input type = "button" class = "num" value = "." onclick="field.value+='.'">
                 <input type = "button" class = "num" value = "0" onclick="field.value+=0">
-                <input type = "button" class = "exp" value = "*" onclick="field.value+='*'">
-
+                <input type = "button" class = "exp" value = "x" onclick="field.value+='ء'">
                 <input type = "button" class = "exp" value = "-" onclick="field.value+='-'">
 
             </div>
             <div class="row">
-                <input type = "button" class = "exp" value = "/" onclick="field.value+='/'">
-                <input type = "button" class = "exp" value = "^" onclick="field.value+='**'">
                 <input type = "button" class = "exp" value = "%" onclick="field.value+='%'">
+                <input type = "button" class = "exp" value = "^" onclick="field.value+='**'">
+                <input type = "button" class = "exp" value = "÷" onclick="field.value+='÷'">
                 <input type = "button" class = "exp" value = "=" onclick="result();">
             </div>
         </div>
     </div>
+
+    <footer>
+        <p>Copyright Reserved For &copf; Breksam Elsokkary 2022</p>
+    </footer>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
