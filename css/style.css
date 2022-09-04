@@ -22,7 +22,6 @@ header .container{
     justify-content: space-between;
 }
 .Calculator{
-    background-color: rgb(197, 191, 191,.6);
     border-radius: 30px;
     padding: 80px;
     position: absolute;
@@ -32,11 +31,13 @@ header .container{
 }
 .Calculator .field input{
     background-color: #f4f3ee;
-    width:350px;
+    width:340px;
+    height: 50px;
     padding:15px;
     border:0;
     border-radius:4px;
-    opacity: .9;
+    text-align: right;
+    font-size: 25px;
 }
 .Calculator .btn {
     text-align: center;
@@ -47,32 +48,37 @@ header .container{
 }
 .Calculator .btn .row input{
     width: 80px;
-    height: 40px;
+    height: 50px;
     border: 0;
     padding: 3px;
     cursor: pointer;
     font-weight: bold;
 }
 .Calculator .btn .row .num{
-    background-color:#333;
+    background-color:#444444;
     color: white;
+    font-size: 20px;
 }
 .Calculator .btn .row .exp{
     background-color:#f4f3ee;
+    font-size: 20px;
+
 }
 .Calculator .btn .row .delete{
     background-color:#C42021;
     color: white;
+    font-size: 20px;
+
 }
 .Calculator .btn .row .clear{
-    background-color:#ff9f1c
-    ;
+    background-color:#ff9f1c;
+    font-size: 20px;
 }
 footer
 {
     background-color:#333;
     text-align: center;
-    padding:12px 0;
+    padding:20px 0;
     color:#f4f3ee;
     position: absolute;
     bottom: 0;
