@@ -7,7 +7,6 @@ Simple calculator practise with js.
 - HTML.
 - CSS.
 - JS.
-- Bootstrap.
 
 ### Installing
 
